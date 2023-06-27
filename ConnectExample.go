@@ -9,7 +9,7 @@ import (
 
 func main() {
 	header := http.Header{}
-	header.Add("Key", "www.51xtzy.cn")
+	header.Add("Key", "123456789")
 	// 建立WebSocket连接
 	conn, _, err := websocket.DefaultDialer.Dial("ws://13.250.39.11:8080/ws", header)
 	if err != nil {
